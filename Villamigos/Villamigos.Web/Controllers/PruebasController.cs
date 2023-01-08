@@ -88,6 +88,13 @@ namespace Villamigos.Web.Controllers
         }
 
 
+        public ViewResult Portero (int edad)
+        {
+            ViewBag.Edad = edad;
+            return View();
+        }
+
+
     }
 
 

@@ -109,3 +109,4 @@ C:\Users\evela\source\repos\LabMVCVillamigos\Villamigos\Villamigos.Web\bin\Debug
 C:\Users\evela\source\repos\LabMVCVillamigos\Villamigos\Villamigos.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\evela\source\repos\LabMVCVillamigos\Villamigos\Villamigos.Web\obj\Debug\netcoreapp3.1\Razor\Views\Pruebas\Bienvenida.cshtml.g.cs
 C:\Users\evela\source\repos\LabMVCVillamigos\Villamigos\Villamigos.Web\obj\Debug\netcoreapp3.1\Razor\Views\Pruebas\MasaCorporal.cshtml.g.cs
+C:\Users\evela\source\repos\LabMVCVillamigos\Villamigos\Villamigos.Web\obj\Debug\netcoreapp3.1\Razor\Views\Pruebas\Portero.cshtml.g.cs

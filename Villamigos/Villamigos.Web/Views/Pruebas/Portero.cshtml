@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Portero</title>
+</head>
+<body>
+
+    @if (ViewBag.Edad < 18)
+    {
+        <h3> Lo sentimos, no puede ingresar al sitio </h3>
+    }
+    else
+    {
+        <h3>Bienvenido a nuestro sitio!</h3>
+    }
+
+
+</body>
+</html>
