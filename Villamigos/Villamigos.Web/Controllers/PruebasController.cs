@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
+using Villamigos.Web.Models;
 
 namespace Villamigos.Web.Controllers
 {
@@ -93,6 +94,25 @@ namespace Villamigos.Web.Controllers
             ViewBag.Edad = edad;
             return View();
         }
+
+        public ViewResult Multiplicar(int multiplicador)
+        {
+            ViewBag.Multiplicador = multiplicador;
+            return View();
+        }
+
+        public ViewResult Articulo()
+        {
+            var articulo = new ArticuloViewModel
+            {
+                Codigo = 2345,
+                Nombre = "Bicicleta",
+                Precio = 275
+            };
+            return View(articulo);  
+        }
+
+
 
 
     }
